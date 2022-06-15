@@ -11,17 +11,15 @@ body {
 /* HEADER / NAV BAR STYLE START */
 
 header {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 7px 0px 7px 0px;
     background-color:
     rgb(8, 8, 59);
-    flex-wrap: wrap;
 }
 
 /* box-sizing: border-box; */
-
-header div {
-    float:left;
-}
 
 header h1 {
     width: 300px;
@@ -32,16 +30,16 @@ header h1 {
     font-weight: bold;
     margin: 0;
     font-size: 36px;
-    border-radius: 0 20px 20px 0;
-}
-
-header a {
-    text-decoration: none;
-    color:rgb(8, 8, 59)
 }
 
 header nav {
     margin: 20px 0px;
+}
+
+header a {
+    margin: 0 7px 0 0;
+    text-decoration: none;
+    color:rgb(8, 8, 59)
 }
 
 header nav ul {
