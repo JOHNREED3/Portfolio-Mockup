@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color:azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER / NAV BAR STYLE START */
+
+header {
+    padding: 7px 0px 7px 0px;
+    background-color:
+    rgb(8, 8, 59);
+    flex-wrap: wrap;
+}
+
+/* box-sizing: border-box; */
+
+header div {
+    float:left;
+}
+
+header h1 {
+    width: 300px;
+    height: 70px;
+    text-align: right;
+    padding: 13px 0 13px 0;
+    background-color: lightblue;
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    border-radius: 0 20px 20px 0;
+}
+
+header a {
+    text-decoration: none;
+    color:rgb(8, 8, 59)
+}
+
+header nav {
+    margin: 20px 0px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: right;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 20px 15px;
+    font-weight: lighter;
+    color:
+    lightblue;
+    font-size: 2vw;
+    text-decoration: underline;
+}
