@@ -1,6 +1,7 @@
 * {
-    margin: 0;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -11,17 +12,22 @@ body {
 /* HEADER / NAV BAR STYLE START */
 
 header {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 7px 0px 7px 0px;
+    padding: 8px 0px;
     background-color:
-    rgb(8, 8, 59);
+    rgb(31, 31, 56);
+    min-width: 300px;
 }
 
 /* box-sizing: border-box; */
 
 header h1 {
+    margin: 0;
+}
+
+header h1 div {
     width: 300px;
     height: 70px;
     text-align: right;
@@ -32,30 +38,40 @@ header h1 {
     font-size: 36px;
 }
 
-header nav {
-    margin: 20px 0px;
-}
-
-header a {
+header h1 div a {
     margin: 0 7px 0 0;
     text-decoration: none;
-    color:rgb(8, 8, 59)
+    color:rgb(31, 31, 56)
+}
+
+header nav {
+    padding: 20px 0px;
 }
 
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    align-content: right;
-    justify-content: space-around;
+    justify-content:
+    space-between;
     align-items: center;
     list-style: none;
 }
 
-header nav ul li a {
-    padding: 20px 15px;
-    font-weight: lighter;
-    color:
-    lightblue;
-    font-size: 2vw;
+header nav ul a {
+    padding: 0px 15px;
+    font-weight: bolder;
     text-decoration: underline;
+    color: lightblue;
+    font-size: 2.0vw;
+}
+
+/* banner graphics */
+
+.spacer {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 300px;
+    height: 225px;
+    background:
+    url(../images/background.jpg);
 }
