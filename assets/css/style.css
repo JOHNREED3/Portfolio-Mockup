@@ -74,8 +74,8 @@ header nav ul a {
     height: 200px;
     background:
     url(../images/background.jpg);
-}
-
+}        
+    
 .statement {
     display:flex;
     height: 45px;
@@ -85,16 +85,30 @@ header nav ul a {
     margin: 135px 60px 20px auto;
     background-color: lightblue;
     text-align:center;
-}
-
+}         
+    
 .statement h2 {
     color:rgb(31, 31, 56);
 }
+    
+/* mainbody */
+
+.mainbody {
+    width: 100%;
+    min-width: 300px;
+    height: auto;
+    margin: 20px auto 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+    /* about me section */
 
 .aboutme {
     width: 100%;
     min-width: 300px;
-    height: 200px;
+    height: auto;
     margin: 20px auto 20px;
     display: flex;
     flex-wrap: wrap;
@@ -146,4 +160,35 @@ header nav ul a {
     justify-content: flex-end;
     color:black;
     padding-bottom: 20px;
+}
+
+    /* work section */
+
+.work {
+    width: 100%;
+    min-width: 300px;
+    height: 800px;
+    margin: 20px auto 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.work-title {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 260px;
+    height: 800px;
+    border-right: 3px solid black;
+    padding-bottom: 20px;
+}
+
+.work-title h1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    height: auto;
+    justify-content: flex-end;
+    color: black;
+    font-size: 35px;
 }
