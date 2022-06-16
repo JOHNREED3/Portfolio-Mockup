@@ -62,7 +62,7 @@ header nav ul a {
     font-weight: bolder;
     text-decoration: underline;
     color: lightblue;
-    font-size: 2.0vw;
+    font-size: calc(.57em + .5vw);
 }
 
 /* banner graphics */
@@ -71,7 +71,79 @@ header nav ul a {
     display: flex;
     flex-wrap: wrap;
     min-width: 300px;
-    height: 225px;
+    height: 200px;
     background:
     url(../images/background.jpg);
+}
+
+.statement {
+    display:flex;
+    height: 45px;
+    width: 250px;
+    justify-content:center;
+    font-size: 25px;
+    margin: 135px 60px 20px auto;
+    background-color: lightblue;
+    text-align:center;
+}
+
+.statement h2 {
+    color:rgb(31, 31, 56);
+}
+
+.aboutme {
+    width: 100%;
+    min-width: 300px;
+    height: 200px;
+    margin: 20px auto 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-title {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 260px;
+    height: 200px;
+    border-right: 3px solid black;
+    padding-bottom: 20px;
+}
+
+.about-title h1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    height: auto;
+    justify-content: flex-end;
+    color: black;
+    font-size: 35px;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 10 auto;
+    justify-content: flex-end;
+}
+
+.about-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: flex-end;
+    color:black;   
+    padding-bottom: 20px; 
+}
+
+.about-info2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: flex-end;
+    color:black;
+    padding-bottom: 20px;
 }
