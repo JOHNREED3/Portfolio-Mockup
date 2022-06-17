@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    max-width: 1005px;
 }
 
 body {
@@ -32,7 +33,8 @@ header h1 div {
     height: 70px;
     text-align: right;
     padding: 13px 0 13px 0;
-    background-color: lightblue;
+    background-color: turquoise;
+    opacity: .75;
     font-weight: bold;
     margin: 0;
     font-size: 36px;
@@ -61,7 +63,8 @@ header nav ul a {
     padding: 0px 15px;
     font-weight: bolder;
     text-decoration: underline;
-    color: lightblue;
+    color: turquoise;
+    opacity: .75;
     font-size: calc(.57em + .5vw);
 }
 
@@ -83,7 +86,8 @@ header nav ul a {
     justify-content:center;
     font-size: 25px;
     margin: 135px 60px 20px auto;
-    background-color: lightblue;
+    background-color: turquoise;
+    opacity: .75;
     text-align:center;
 }         
     
@@ -131,6 +135,7 @@ header nav ul a {
     height: auto;
     justify-content: flex-end;
     color: black;
+    text-align: right;
     font-size: 35px;
 }
 
@@ -191,4 +196,41 @@ header nav ul a {
     justify-content: flex-end;
     color: black;
     font-size: 35px;
+}
+
+.work-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 800px;
+    margin: 10 auto;
+    justify-content: flex-end;
+}
+
+.media {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 800px;
+    min-width: 300px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.upperpic {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 300px;
+    height: 50%;
+    background:url(../images/surf\ picture.jpg);
+    opacity: .5;
+    border: 4px solid turquoise;
+}
+
+.lowerpics {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 300px;
+    height: 50%;
+    border: 1px solid black;
 }
