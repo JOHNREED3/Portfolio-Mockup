@@ -10,4 +10,6 @@ A portfolio of work can showcase your skills and talents to employers looking to
 
 With these points in mind, in this Challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you'll use during your job search. It’s a win-win that you'll likely be grateful for in the future!
 
+https://johnreed3.github.io/Portfolio-Mockup/
+
 ![image](https://user-images.githubusercontent.com/87314038/174214554-657a1457-a35c-408b-9e3f-556f6c0e917a.png)
